@@ -1,9 +1,12 @@
 body {
 
     font-family: 'Merriweather', serif;
+    background-color: #FFF;
+  
 }
 
 .banner {
+  
     margin: 20px 30px;
     width: 1220px;
     height: 500px;
@@ -13,9 +16,11 @@ body {
 .banner img {
     width: 100%;
     height: 100%;
+    
 }
 
 .banner .text {
+   
     position: absolute;
     margin: 0%;
     padding: 0;
@@ -330,30 +335,31 @@ footer {
 }
 
 .social-icon img {
-    margin-top: 60px;
-    left: 400px;
+    max-resolution: 10px 0px 0px 10px;
+    
 }
 
 .social-icon {
     margin-top: 70px;
     margin-left: 700px;
 }
-.left-text-bottom{
+
+.left-text-bottom {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.right-text-bottom{
+.right-text-bottom {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-align: right;
-padding-right: 10px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+    padding-right: 10px;
 }
