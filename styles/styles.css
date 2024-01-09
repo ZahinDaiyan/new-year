@@ -111,8 +111,8 @@ body {
 }
 
 .text5 {
-    position: relative;  
-    color: white;    
+    position: relative;
+    color: white;
     color: #FFF;
     font-size: 44px;
     display: block;
@@ -382,16 +382,14 @@ body {
 
 footer {
     display: block;
-    margin: auto;   
+    margin: auto;
     width: 1350px;
     height: 450px;
     flex-shrink: 0;
     background: #070211;
     display: block;
     margin: auto;
-   
-  
-  
+
 }
 
 .left-text {
@@ -421,29 +419,29 @@ footer {
     background: rgba(255, 255, 255, 0.15);
 }
 
-.social-icon img {   
-    position: relative; 
-    display: flexbox;   
-justify-content: center; 
-justify-self: center;   
-justify-items: center;
-align-items: center;
-align-self: center;
-align-content: center;
+.social-icon img {
+    position: relative;
+    display: flexbox;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 10px;
+    padding-left: 200px;
 }
 
-.social-icon {   
+.social-icon {
     position: relative;
     align-self: flex-start;
-    margin-top: 5px 10px;  
-    justify-content: center; 
-justify-self: center;   
-justify-items: center;
-align-items: center;
-align-self: center;
-align-content: center;
-    
-}
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}    
 
 .left-text-bottom {
     position: relative;
@@ -496,6 +494,3 @@ align-content: center;
     justify-self: center;
     justify-items: center;
 }
-
-
-   
