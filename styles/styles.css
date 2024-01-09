@@ -241,11 +241,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+
 }
 
-.icon-email {
-    margin-top: 200px;
-    margin-left: 600px;
+.icon-email img {
+
+    display: block;
+    margin: auto;
 }
 
 .subscribe {
@@ -292,22 +294,45 @@ body {
     width: 648px;
     height: 72px;
     flex-shrink: 0;
+    display: block;
+    margin: auto;
 }
 
 .box input[type="text"] {
     position: relative;
-    left: 500px;
     border-radius: 50px;
     background: #FFF;
     height: 40px;
     width: 300px;
     border-radius: 50px;
-    background: #FFF;
+    display: block;
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
 }
 
 .box input[type="submit"] {
     position: relative;
-    left: 500px;
+    left: 235px;
+    bottom: 47px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 160px;
+    height: 52px;
+    flex-shrink: 0;
+    text-transform: capitalize;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     text-align: center;
@@ -317,13 +342,34 @@ body {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    display: block;
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
 
 footer {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     width: 1350px;
     height: 609px;
     flex-shrink: 0;
     background: #070211;
+    display: block;
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
 
 .left-text {
@@ -333,6 +379,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    padding-left: 50px;
 
 }
 
@@ -343,6 +390,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    padding-right: 30px;
 }
 
 .line {
@@ -363,23 +411,24 @@ footer {
 }
 
 .left-text-bottom {
+    position: relative;
     color: #FFF;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    padding-left: 30px;
+
+
 }
 
 .right-text-bottom {
+    position: relative;
     color: #FFF;
-    font-family: Inter;
+    position: relative;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 30px;
+
 }
 
 .year2024 img {
@@ -400,9 +449,15 @@ footer {
     align-self: center;
 }
 
-.products img{   
+.products img {
     align-items: center;
+    margin: 5px 2px;
     display: block;
     margin: auto;
-    margin: 30px 30px 30px 30px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
