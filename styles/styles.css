@@ -1,8 +1,6 @@
 body {
-
     font-family: 'Merriweather', serif;
     background-color: #c0b6b6;
-
 }
 
 .banner {
@@ -13,7 +11,6 @@ body {
     margin: auto;
     display: block;
     margin-top: 30px;
-
 }
 
 .banner img {
@@ -23,18 +20,18 @@ body {
     z-index: -1;
     margin: 0;
     opacity: 0.95;
-    margin: auto;
+    margin-top: 100px;
     display: block;
+    top: -300px;
 
 }
 
 .banner .text {
-
     position: relative;
     margin: 0%;
     padding: 0;
     left: 50px;
-    top: 350px;
+    top: 100px;
     margin: auto;
     display: block;
 
@@ -57,7 +54,7 @@ body {
 }
 
 .text2 {
-    margin-top: 300px;
+    margin-top: 100px;
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -91,40 +88,32 @@ body {
 
 .banner2 img {
     z-index: -1;
-    width: 802.9px;
+    width: 800px;
     height: 500px;
     flex-shrink: 0;
-    margin-left: 250px;
-    margin: auto;
     display: block;
+    margin: auto;
+    top: -10px;
+    margin-bottom: 100px;
 }
 
 .banner3 img {
     z-index: -1;
-    width: 1120px;
+    width: 1220px;
     height: 500px;
     flex-shrink: 0;
-    margin-left: 100px;
-    margin-top: 120px;
     margin: auto;
     display: block;
+
 }
 
-.text5 {
+.text6 .text5 {
     position: relative;
     color: white;
     color: #FFF;
-    font-size: 44px;
+    font-size: 40px;
     display: block;
-    margin: 800px 0px 0px 120px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-self: center;
-    justify-items: center;
-    top: 800px;
-    left: 120px;
+    margin: auto top: 300px;
 }
 
 .text6 {
@@ -134,24 +123,19 @@ body {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    top: 225px;
+    top: 250px;
     margin-right: 550px;
 }
 
 .text7 {
-    position: absolute;
-    left: 200px;
-    top: 2150px;
+    position: relative;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 10px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     margin: auto;
     display: block;
+
 }
 
 .address {
@@ -205,34 +189,11 @@ body {
     justify-items: center;
 }
 
-.btn2 {
-    top: 225px;
-    margin-right: 550px;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    display: inline-flex;
-    padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #F00;
-    margin: auto;
-    display: block;
-    display: block;
-    margin: auto;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-self: center;
-    justify-items: center;
+.btn2 input {
+    display: inline;
+    z-index: 1;
+    position: relative;
+
 }
 
 .text8 {
@@ -441,7 +402,7 @@ footer {
     align-items: center;
     align-self: center;
     align-content: center;
-}    
+}
 
 .left-text-bottom {
     position: relative;
@@ -464,15 +425,21 @@ footer {
 
 }
 
+>.year2024 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .year2024 img {
     position: relative;
-    height: auto;
-    width: 30%;
+    width: 450px;
+    height: 650px;
     margin: auto;
     display: block;
     z-index: +1;
     left: 300px;
-    top: 570px;
+    top: 670px;
 }
 
 .section4 {
@@ -482,15 +449,31 @@ footer {
     align-self: center;
 }
 
-.products img {
+.products1 {
+    display: flex;
     align-items: center;
-    margin: 5px 2px;
-    display: block;
-    margin: auto;
-    align-self: center;
-    align-items: center;
-    align-content: center;
     justify-content: center;
-    justify-self: center;
-    justify-items: center;
+}
+
+.products1 img {
+
+    display: flexbox;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.products2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products2 img {
+
+    display: flexbox;
+    margin-right: 50px;
+    margin-left: 50px;
+
+
 }
