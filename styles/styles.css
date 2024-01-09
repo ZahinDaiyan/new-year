@@ -434,12 +434,12 @@ footer {
 .year2024 img {
     position: relative;
     width: 450px;
-    height: 650px;
+    height: 400px;
     margin: auto;
     display: block;
     z-index: +1;
     left: 300px;
-    top: 670px;
+    top: 550px;
 }
 
 .section4 {
@@ -497,5 +497,4 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
