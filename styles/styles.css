@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
-    background-color: #c0b6b6;
+    background-color: white;
 }
 
 .banner {
@@ -475,5 +475,27 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
 
+}
 
+.Subscribe-Newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.Subscribe-Newsletter-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
